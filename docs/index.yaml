@@ -1,12 +1,21 @@
 apiVersion: v1
 entries:
+  ceph:
+  - apiVersion: v1
+    created: 2019-04-22T09:28:17.028691+08:00
+    description: Ceph-Helm
+    digest: 387c1ae66aef08de18643a40b7d7856a46161fd24ab589d5a9830f64c5f6ed14
+    name: ceph
+    urls:
+    - ceph-0.1.0.tgz
+    version: 0.1.0
   helm-toolkit:
   - apiVersion: v1
-    created: 2019-04-22T09:01:22.712558+08:00
+    created: 2019-04-22T09:28:17.031379+08:00
     description: A base chart for all openstack charts
     digest: cbc59b0c828a89f1c7b6722da4b6678d5bdcb8049cdaf529db8822c0815e896a
     name: helm-toolkit
     urls:
     - helm-toolkit-0.1.0.tgz
     version: 0.1.0
-generated: 2019-04-22T09:01:22.708389+08:00
+generated: 2019-04-22T09:28:17.024436+08:00
